@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classroom Search</title>
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkbox.css">
+    <link rel="stylesheet" href="css/assign-button.css">
+</head>
+
+<body>
+
+    <!-- Search Card -->
+    <div class="container">
+
+        <h2>Classroom Search</h2>
+
+        <!-- Current Classroom -->
+        <label for="currentRoom">Current Classroom</label>
+        <input
+            type="text"
+            id="currentRoom"
+            placeholder="Example: A-201"
+            style="display:block; width:100%; padding:10px; margin-bottom:15px;"
+        >
+
+        <!-- Time -->
+        <label for="time">Time</label>
+        <input
+            type="time"
+            id="time"
+            style="display:block; width:100%; padding:10px; margin-bottom:20px;"
+        >
+
+        <!-- Facilities -->
+        <label>Required Facilities</label>
+
+        <div class="facilities">
+
+            <label class="cb-container">
+                <input type="checkbox" id="smart">
+                <span class="checkmark"></span>
+                <span class="cb-text">Smart Screen</span>
+            </label>
+
+            <label class="cb-container">
+                <input type="checkbox" id="board">
+                <span class="checkmark"></span>
+                <span class="cb-text">Whiteboard</span>
+            </label>
+
+            <label class="cb-container">
+                <input type="checkbox" id="mic">
+                <span class="checkmark"></span>
+                <span class="cb-text">Microphone</span>
+            </label>
+
+        </div>
+
+        <!-- Assign Button -->
+        <button onclick="assignRoom()">
+            <span class="button_top">Assign Classroom</span>
+        </button>
+
+        <!-- Result -->
+        <div id="result" class="result"></div>
+
+    </div>
+
+    <!-- Occupied Classrooms Card -->
+    <div class="container occupied-container">
+        <h2>Occupied Classrooms</h2>
+        <div id="occupiedCard">Loading occupied classrooms...</div>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
