@@ -1,0 +1,125 @@
+/* Card adapted for Search Form UI */
+
+.card {
+  position: relative;
+  width: 380px;              /* wider for inputs */
+  min-height: 520px;         /* enough space for form */
+  background: #fff;
+  border: solid 4px #333;
+  box-shadow: -6px 6px #333;
+  transition: all 0.2s ease-in-out;
+  margin: 40px auto;
+  border-radius: 6px;
+}
+
+/* Optional subtle hover (safe for forms) */
+.card:hover {
+  box-shadow: -3px 3px #333;
+}
+
+/* Header area (title area) */
+.card .img-card {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #333;
+  background: #f7f7f7;
+}
+
+.card .img-card h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* REMOVE blur + overlay for usability */
+.card:hover .img-card {
+  filter: none;
+}
+
+/* Disable add-cart overlay (not needed for form) */
+.card .add-cart {
+  display: none;
+}
+
+/* Content area */
+.card .info-card {
+  position: relative;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+/* Text inside card */
+.card .info-card p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+/* Spacing helpers inside card */
+.card label {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Ensure inputs look clean inside card */
+.card .input {
+  width: 100%;
+  margin-top: 6px;
+}
+
+/* Checkbox spacing */
+.card .facilities {
+  margin-top: 10px;
+}
+
+/* Button spacing */
+.card button {
+  margin-top: 22px;
+}
+
+/* Fix checkbox layout inside card */
+.card .cb-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card + .card {
+  margin-top: 30px;
+}
+
+/* ---------- INDEX PAGE CARD ONLY ---------- */
+.home-card {
+  width: 380px;
+  min-height: 260px;
+}
+
+.home-card .info-card {
+  padding: 18px;
+}
+
+.home-card p {
+  margin-bottom: 18px;
+}
+
+.home-card p {
+  font-weight: 600;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;   /* move card toward top */
+  min-height: 100vh;
+  padding-top: 80px;         /* controls how far from top */
+}
+
+

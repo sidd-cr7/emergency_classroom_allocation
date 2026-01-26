@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classroom Search</title>
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkbox.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/card.css">
+
+</head>
+
+<body>
+    <div class="background"></div>
+
+
+    <!-- Search Card -->
+    <div class="card">
+
+    <!-- Top visual area -->
+    <div class="img-card">
+        <h2>Classroom Search</h2>
+    </div>
+
+    <!-- Hover overlay text (optional) -->
+    <div class="add-cart">
+        Emergency Allocation
+    </div>
+
+    <!-- Bottom content area -->
+    <div class="info-card">
+
+        <!-- Current Classroom -->
+        <label for="currentRoom">Current Classroom</label>
+        <input
+            type="text"
+            id="currentRoom"
+            class="input"
+            placeholder="Example: A-201"
+        >
+
+        <!-- Time -->
+        <label for="time">Time</label>
+        <input
+            type="time"
+            id="time"
+            class="input"
+        >
+
+        <!-- Facilities -->
+        <label>Required Facilities</label>
+
+        <div class="facilities">
+
+            <label class="cb-container">
+                <input type="checkbox" id="smart">
+                <span class="checkmark"></span>
+                <span class="cb-text">Smart Screen</span>
+            </label>
+
+            <label class="cb-container">
+                <input type="checkbox" id="board">
+                <span class="checkmark"></span>
+                <span class="cb-text">Whiteboard</span>
+            </label>
+
+            <label class="cb-container">
+                <input type="checkbox" id="mic">
+                <span class="checkmark"></span>
+                <span class="cb-text">Microphone</span>
+            </label>
+
+        </div>
+
+        <!-- Assign Button -->
+        <button onclick="assignRoom()">
+            <span class="button_top">Assign Classroom</span>
+        </button>
+
+        <!-- Result -->
+        <div id="result" class="result"></div>
+
+    </div>
+</div>
+
+
+    <!-- Occupied Classrooms Card -->
+    <div class="card">
+
+    <!-- Card header -->
+    <div class="img-card">
+        <h2>Occupied Classrooms</h2>
+    </div>
+
+    <!-- Not needed for occupied card -->
+    <div class="add-cart"></div>
+
+    <!-- Card content -->
+    <div class="info-card">
+        <p id="occupiedCard">Loading occupied classrooms...</p>
+    </div>
+
+</div>
+
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>

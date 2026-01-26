@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/card.css">
+
+
+    <title>Emergency Classroom Allocation</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f3e0e0;
+            padding-top: 100px;
+        }
+       .background {
+  position: fixed;          /* 🔑 key change */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    125% 125% at 50% 10%,
+    #fff 40%,
+    #63e 100%
+  );
+  z-index: -10;
+}
+
+
+    </style>
+</head>
+<body style="display:block; padding-top:30px;">
+
+    <div class="background"></div>
+    <div style="margin-top: 60px;">
+  <div class="card home-card">
+
+    <div class="img-card">
+      <h2 style="color:#b30000;"> Emergency Classroom Allocation</h2>
+    </div>
+
+    <div class="info-card" style="text-align:center;">
+      <p>
+        Find an available classroom during emergencies
+      </p>
+
+      <button onclick="location.href='search.html'">
+        <span class="button_top">Search Classroom</span>
+      </button>
+    </div>
+
+  </div>
+</div>
+
+
+</body>
+</html>

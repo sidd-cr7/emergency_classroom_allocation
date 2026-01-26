@@ -1,0 +1,173 @@
+/* -------------------------
+   Global Styles
+-------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+}
+
+.background {
+  position: fixed;          /* 🔑 key change */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    125% 125% at 50% 10%,
+    #fff 40%,
+    #63e 100%
+  );
+  z-index: -10;
+}
+
+
+
+/* -------------------------
+   Main Container (Card)
+-------------------------- */
+
+.container {
+    max-width: 520px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 28px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* -------------------------
+   Headings
+-------------------------- */
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #b30000;
+    font-weight: 600;
+}
+
+/* -------------------------
+   Form Labels & Inputs
+-------------------------- */
+
+label {
+    display: block;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.input {
+  max-width: 190px;
+  padding: 0.875rem;
+  font-size: 1rem;
+  border: 1.5px solid #141414;
+  border-radius: 0.5rem;
+  box-shadow: 2.5px 3px 0 #141414;
+  outline: none;
+  transition: ease 0.25s;
+}
+
+.input:focus {
+  box-shadow: 5.5px 7px 0 #141414;
+}
+
+
+/* -------------------------
+   Facilities Section
+-------------------------- */
+
+.facilities {
+    margin-top: 12px;
+    padding-left: 4px;
+}
+
+.facilities label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/* -------------------------
+   Button
+-------------------------- */
+
+/* Old plain buttons only */
+.plain-button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 12px;
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.plain-button:hover {
+    background-color: #004a99;
+}
+
+
+/* -------------------------
+   Result Box
+-------------------------- */
+
+.result {
+    margin-top: 22px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #e8f5e9;
+    border-left: 5px solid #2e7d32;
+}
+
+/* -------------------------
+   Error State
+-------------------------- */
+
+.result.error {
+    background-color: #fdecea;
+    border-left: 5px solid #c62828;
+    color: #b71c1c;
+}
+
+/* -------------------------
+   Occupied Classrooms Card
+-------------------------- */
+
+.occupied-container {
+    margin-top: 30px;
+}
+
+#occupiedCard {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#occupiedCard ul {
+    padding-left: 18px;
+    margin: 0;
+}
+
+#occupiedCard li {
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
