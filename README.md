@@ -1,5 +1,17 @@
-a simple classroom allocation project that automatically assigns a classroom when you don't have one currently
+Classroom Allocation System
 
-filters based on requirements like SmartScreen, mic facility, etc., and also based on which block or floor
+This project is a simple classroom allocation system that automatically assigns a classroom when none has been allocated.
 
-displays all the unavailable classrooms on a separate card
+It filters available classrooms based on specific requirements such as:
+
+Smart screen availability
+
+Microphone facility
+
+Preferred block
+
+Preferred floor
+
+Only classrooms that meet the selected criteria are considered for assignment.
+
+The system also clearly displays unavailable classrooms separately, making it easy to track room usage and availability at a glance.
