@@ -14,4 +14,4 @@ Preferred floor
 
 Only classrooms that meet the selected criteria are considered for assignment.
 
-The system also clearly displays unavailable classrooms separately, making it easy to track room usage and availability at a glance.
+The system also clearly displays unavailable classrooms separately, making it easy to track room usage and availability.
