@@ -2,7 +2,7 @@ Classroom Allocation System
 
 This project is a simple classroom allocation system that automatically assigns a classroom when none has been allocated.
 
-It filters available classrooms based on specific requirements as:
+It filters available classrooms based on specific requirements, such as:
 
 Smart screen availability
 
