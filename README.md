@@ -1,8 +1,12 @@
-# Classroom Allocation System
+## Classroom Allocation System
 
-This project is a simple classroom allocation system that automatically assigns a classroom when none has been allocated.
+The Classroom Allocation System is a simple application that automatically assigns a classroom when no room has been allocated manually. It helps streamline classroom management by selecting the most suitable room based on specified requirements.
 
-It filters available classrooms based on specific requirements, such as:
+🚀 Features
+
+Automatic Classroom Assignment — Allocates a classroom when none is assigned.
+
+Requirement-Based Filtering — Selects classrooms based on:
 
 Smart screen availability
 
@@ -12,6 +16,10 @@ Preferred block
 
 Preferred floor
 
-Only classrooms that meet the selected criteria are considered for assignment.
+Availability Tracking — Displays unavailable classrooms separately for easy monitoring of room usage.
 
-The system also clearly displays unavailable classrooms separately, making it easy to track room usage and availability.
+Efficient Resource Management — Ensures optimal utilization of available classrooms.
+
+🎯 Objective
+
+The system simplifies classroom allocation by filtering and assigning only those rooms that satisfy the selected criteria, improving efficiency and reducing manual effort.
