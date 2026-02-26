@@ -18,8 +18,8 @@ Preferred floor
 
 Availability Tracking — Displays unavailable classrooms separately for easy monitoring of room usage.
 
-Efficient Resource Management — Ensures optimal utilization of available classrooms.
+Efficient Resource Management — Ensures optimal utilisation of available classrooms.
 
-🎯 Objective
+# Objective
 
 The system simplifies classroom allocation by filtering and assigning only those rooms that satisfy the selected criteria, improving efficiency and reducing manual effort.
