@@ -1,4 +1,4 @@
-## Classroom Allocation System
+# Classroom Allocation System
 
 The Classroom Allocation System is a simple application that automatically assigns a classroom when no room has been allocated manually. It helps streamline classroom management by selecting the most suitable room based on specified requirements.
 
